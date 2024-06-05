@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\documentmanagment-webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\documentmanagment-webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\services\\documentmanagementapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\services\\documentmanagementapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\repositories\\documentmanagementapirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\repositories\\documentmanagementapirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\config\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\config\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\components\\pages\\querydocuments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\components\\pages\\querydocuments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\components\\pages\\adddocument.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\components\\pages\\adddocument.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagment-webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5104A515-DD58-48FD-9CB2-E7EFD4A3F807}|DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj|solutionrelative:documentmanagment-webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53778FA8-EEE9-4680-A353-092D55895FB6}|DocumentManagement-WebApp-Tests\\DocumentManagement-WebApp-Tests.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagement-webapp-tests\\services\\documentmanagementapiservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53778FA8-EEE9-4680-A353-092D55895FB6}|DocumentManagement-WebApp-Tests\\DocumentManagement-WebApp-Tests.csproj|solutionrelative:documentmanagement-webapp-tests\\services\\documentmanagementapiservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53778FA8-EEE9-4680-A353-092D55895FB6}|DocumentManagement-WebApp-Tests\\DocumentManagement-WebApp-Tests.csproj|c:\\users\\fred\\source\\repos\\documentmanagement-api\\documentmanagement-webapp-tests\\resources\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{53778FA8-EEE9-4680-A353-092D55895FB6}|DocumentManagement-WebApp-Tests\\DocumentManagement-WebApp-Tests.csproj|solutionrelative:documentmanagement-webapp-tests\\resources\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentManagment-WebApp",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj",
+              "RelativeToolTip": "DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-05T22:52:17.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\appsettings.json",
+              "RelativeToolTip": "DocumentManagment-WebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T22:47:05.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentManagementAPIService.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Services\\DocumentManagementAPIService.cs",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Services\\DocumentManagementAPIService.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Services\\DocumentManagementAPIService.cs",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Services\\DocumentManagementAPIService.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:46:50.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentManagementAPIRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Repositories\\DocumentManagementAPIRepository.cs",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Repositories\\DocumentManagementAPIRepository.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Repositories\\DocumentManagementAPIRepository.cs",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Repositories\\DocumentManagementAPIRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:46:41.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Config\\Bootstrap.cs",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Config\\Bootstrap.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Config\\Bootstrap.cs",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Config\\Bootstrap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:46:33.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueryDocuments.razor",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Pages\\QueryDocuments.razor",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Components\\Pages\\QueryDocuments.razor",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Pages\\QueryDocuments.razor",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Components\\Pages\\QueryDocuments.razor",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T22:46:22.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddDocument.razor",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Pages\\AddDocument.razor",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Components\\Pages\\AddDocument.razor",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Pages\\AddDocument.razor",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Components\\Pages\\AddDocument.razor",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T22:46:08.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DocumentManagment-WebApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DocumentManagment-WebApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T22:45:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentManagementAPIServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagement-WebApp-Tests\\Services\\DocumentManagementAPIServiceTests.cs",
+              "RelativeDocumentMoniker": "DocumentManagement-WebApp-Tests\\Services\\DocumentManagementAPIServiceTests.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagement-WebApp-Tests\\Services\\DocumentManagementAPIServiceTests.cs",
+              "RelativeToolTip": "DocumentManagement-WebApp-Tests\\Services\\DocumentManagementAPIServiceTests.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:44:07.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestFile.txt",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagement-WebApp-Tests\\Resources\\TestFile.txt",
+              "RelativeDocumentMoniker": "DocumentManagement-WebApp-Tests\\Resources\\TestFile.txt",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagement-WebApp-Tests\\Resources\\TestFile.txt",
+              "RelativeToolTip": "DocumentManagement-WebApp-Tests\\Resources\\TestFile.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-05T22:44:04.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\DocumentManagment-WebApp.exe
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\DocumentManagment-WebApp.deps.json
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\DocumentManagment-WebApp.runtimeconfig.json
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\DocumentManagment-WebApp.pdb
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\RestSharp.dll
+C:\Users\Fred\source\repos\DocumentManagement-API\DocumentManagment-WebApp\obj\Release\net8.0\win-x64\PubTmp\Out\DocumentManagment-WebApp.dll

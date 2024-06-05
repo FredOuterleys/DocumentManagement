@@ -1,0 +1,85 @@
+﻿@page "/AddDocuments"
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false));
+
+@using DocumentManagement_API.Models;
+@using DocumentManagment_WebApp.Services;
+@using System.ComponentModel.DataAnnotations;
+
+@inject IDocumentManagementAPIService _documentService;
+
+<PageTitle>Query Documents</PageTitle>
+
+<div class="pagetitle"><h2>Upload A CSDS Document</h2></div>
+<p>To upload a document, please enter the Properity ID, Case number and then select the files to upload .  Once uploaded, the files will be availe to query on the 'Query Documents' page.</p>
+
+<EditForm Model="AddData" OnValidSubmit="Submit" FormName="AddRecord">
+    <DataAnnotationsValidator />
+    
+    <div class="container">
+    <div class="row">
+        <div class="col-25">
+            <label for="propertyId">Property Id:</label>
+        </div>
+        <div class="col-75">
+            <InputText @bind-Value="AddData.PropertyId" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="caseNumber">Case Number:</label>
+        </div>
+        <div class="col-75">
+            <InputText @bind-Value="AddData.CaseNr" />
+        </div>
+        </div>
+    <div class="row">
+        <div class="col-100">
+                <InputFile OnChange="@OnChange" multiple />
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-100blank"><ValidationSummary /></div>
+        </div>
+        <div class="row">
+            <div class="col-100">
+                <button type="submit">Upload Document</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code
+{
+    [SupplyParameterFromForm]
+    private CSDSAddData AddData { get; set; } = new();
+    private EditContext? editContext;
+
+    protected override void OnInitialized()
+    {
+        AddData ??= new CSDSAddData();
+        editContext = new(AddData);
+    }
+
+    private void OnChange(InputFileChangeEventArgs e)
+    {
+        AddData.Filenames = e.GetMultipleFiles().ToArray();
+    }
+
+    private async Task Submit()
+    {
+        if (AddData != null && editContext != null && editContext.Validate())
+            await _documentService.AddDocuments(AddData.PropertyId, AddData.CaseNr, AddData.Filenames);
+
+    }
+
+    public partial class CSDSAddData
+    {
+        [Required(ErrorMessage = "A Property Id is required.")]
+        public string PropertyId { get; set; } = string.Empty;
+        [Required(ErrorMessage = "A Case Number is required.")]
+        public string CaseNr { get; set; } = string.Empty;
+        [Required(ErrorMessage = "One or more files are required.")]
+        public IBrowserFile[] Filenames { get; set; } = [];
+    }
+}

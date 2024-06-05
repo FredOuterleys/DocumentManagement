@@ -1,0 +1,6 @@
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\bin\Release\net8.0\CoverletSourceRootsMapping_DocumentManagement-WebApp-Tests
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\obj\Release\net8.0\DocumentManagement-WebApp-Tests.csproj.AssemblyReference.cache
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\obj\Release\net8.0\DocumentManagement-WebApp-Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\obj\Release\net8.0\DocumentManagement-WebApp-Tests.AssemblyInfoInputs.cache
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\obj\Release\net8.0\DocumentManagement-WebApp-Tests.AssemblyInfo.cs
+C:\Users\mfras\source\repos\DocumentManagement-API\DocumentManagement-WebApp-Tests\obj\Release\net8.0\DocumentManagement-WebApp-Tests.csproj.CoreCompileInputs.cache

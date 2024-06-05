@@ -1,0 +1,156 @@
+﻿@page "/"
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false));
+
+@implements IDisposable
+
+@using DocumentManagement_API.Models;
+@using DocumentManagment_WebApp.Services
+
+@inject IDocumentManagementAPIService _documentService;
+@inject IJSRuntime JS;
+
+<PageTitle>Query Documents</PageTitle>
+
+<div class="pagetitle"><h2>Query CSDS Documents</h2></div>
+<p>To Query currently uploaded documents, please enter a "Property Id" and/or a "Case Number" below and press the "Search" button.<br />
+An asterix (*) can also be used as a wildcard search, either partially or completely in either case.</p>
+<p>Click an entry in the results pane to view a preview of supported files as well as the option to download the file locally.</p>
+
+<EditForm Model="QueryData" OnValidSubmit="Submit" FormName="QueryCSDS">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="container">
+        <div class="row">
+            <div class="col-25"><label for="propertyId">Property Id:</label></div>
+            <div class="col-75"><InputText @bind-Value="QueryData.PropertyId" /></div>
+        </div>
+        <div class="row">
+            <div class="col-25"><label for="caseNumber">Case Number:</label></div>
+            <div class="col-75"><InputText @bind-Value="QueryData.CaseNr" /></div>
+        </div>
+        <div class="row">
+            <div class="col-100"><button type="submit">Search</button></div>
+        </div>
+    </div>
+</EditForm>
+<div class="queryDisplay">
+    <table class="querytable">
+        <thead class="querytableheader">
+            <tr class="tr">
+                <th>Property Id</th>
+                <th>Case Number</th>
+                <th>Filename</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doc in queryResults)
+            {
+                <tr class="tr" @onclick="@(() => OnClickedRow(doc))">
+                    <td>@doc.PropertyId</td>
+                    <td>@doc.CaseNumber</td>
+                    <td>@doc.Filename</td>
+                    <td><button @onclick="@(() => DeleteDocument(doc))" @onclick:stopPropagation>Delete</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+@if (currentDocument != null)
+{
+        <div class="containerPreview">
+            <div class="previewTitle">DOCUMENT PREVIEW</div>
+        <div>
+             <button @onclick="DownloadFile">Download File</button>
+        </div>
+        <div class="row">
+            <iframe class="previewWin" src="@_documentService.GetTempPath(currentDocument, useWWWRoot: false, includeFilename: true)"></iframe>
+        </div>
+    </div>
+    }
+</div>
+
+<script>
+    window.downloadFile = async (fileName, contentStreamReference) => {
+        const arrayBuffer = await contentStreamReference.arrayBuffer();
+        const blob = new Blob([arrayBuffer]);
+        const url = URL.createObjectURL(blob);
+        const anchorElement = document.createElement('a');
+        anchorElement.href = url;
+        anchorElement.download = fileName ?? '';
+        anchorElement.click();
+        anchorElement.remove();
+        URL.revokeObjectURL(url);
+    }
+</script>
+
+@code {
+    [SupplyParameterFromForm]
+    private CSDSQueryData? QueryData { get; set; }
+    private EditContext? editContext;
+    private List<CSDSDocumentEntity> queryResults = new();
+    private CSDSDocumentEntity? currentDocument;
+
+    protected override void OnInitialized()
+    {
+        QueryData ??= new CSDSQueryData();
+        editContext = new(QueryData);
+    }
+
+    private async Task DownloadFile()
+    {
+        if (currentDocument != null)
+        {
+            var streamRef = _documentService.GetStreamReference(currentDocument);
+
+            await JS.InvokeVoidAsync("downloadFile", Path.GetFileName(currentDocument.Filename), streamRef);
+        }
+    }
+
+    private async Task DeleteDocument(CSDSDocumentEntity document)
+    {
+        await _documentService.DeleteDocument(document);
+
+        await Submit();
+    }
+
+    private void ResetCurrentDocument(CSDSDocumentEntity? nextDocument = null)
+    {
+        if (currentDocument != null)
+            _documentService.DeleteViewedFile(currentDocument);
+
+        currentDocument = nextDocument;
+    }
+
+    private async Task Submit()
+    {
+        if (QueryData != null && editContext != null && editContext.Validate())
+        {
+            var documents = await _documentService.QueryDocuments(QueryData.PropertyId, QueryData.CaseNr);
+
+            if (documents != null)
+                queryResults = documents.ToList();
+
+            ResetCurrentDocument();
+        }
+    }
+
+    private async Task OnClickedRow(CSDSDocumentEntity document)
+    {
+        if (document != null)
+            _ = await _documentService.RetrieveDocumentForViewing(document);
+
+        ResetCurrentDocument(document);
+    }
+
+    void IDisposable.Dispose()
+    {
+        ResetCurrentDocument();
+    }
+
+    public partial class CSDSQueryData
+    {
+        public string? PropertyId { get; set; }
+        public string? CaseNr { get; set; }
+    }
+}

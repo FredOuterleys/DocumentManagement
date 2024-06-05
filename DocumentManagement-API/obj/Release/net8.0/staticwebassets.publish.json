@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kH3VPNdi1DJMAHx+DPV15Ck6GTHcsGwd6XmPQmTsLnM=",
+  "Source": "DocumentManagement-API",
+  "BasePath": "_content/DocumentManagement-API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

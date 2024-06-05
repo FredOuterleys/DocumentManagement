@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pZDGnJ4wciw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\DocumentManagment-WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fred\\.nuget\\packages\\restsharp\\111.2.0\\restsharp.111.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

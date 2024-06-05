@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\obj\\Release\\net8.0\\win-x64\\scopedcss\\projectbundle\\DocumentManagment-WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DocumentManagment-WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\wwwroot\\Images\\nsvip-en.svg",
+      "PackagePath": "staticwebassets\\Images\\nsvip-en.svg"
+    },
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Fred\\source\\repos\\DocumentManagement-API\\DocumentManagment-WebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.DocumentManagment-WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.build.DocumentManagment-WebApp.props",
+      "PackagePath": "build\\DocumentManagment-WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.buildMultiTargeting.DocumentManagment-WebApp.props",
+      "PackagePath": "buildMultiTargeting\\DocumentManagment-WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.buildTransitive.DocumentManagment-WebApp.props",
+      "PackagePath": "buildTransitive\\DocumentManagment-WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
