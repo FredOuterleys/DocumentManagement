@@ -4,9 +4,11 @@
 <p>This application consists of an API back-end and a Blazor web front end used together to as a document management system.  The application will allow user's to upload and save documents from their location, then be able to view, query, delete and download uploaded documents based on Property ID and/or case number.</p>
 <p>The Web API is coded in C# with .Net 8 using dependency injection, entity framework, swagger and a SQL Lite database.  The front end is a Blazor web application also using dependency injection and RESTful services to connect with the back end.</p>
 <p>Also included is a Unit Test project running tests against the Web API.</p>
+<h3>Requirements</h3>
+<li>.Net 8.0 SDK available <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">here</a></li>
 <h3>Running The Application</h3>
 <ol>
-<li>Download and load the solution into Visual Studio.</li>
+<li>Clone the solution into Visual Studio.</li>
 <li>The appsettings.json file in the DocumentManagement-API contains the Web API's listening port of 5000 under AllowedHosts, change this if necessary</li>
 <li>If the DocumentManagement-API requires a change from port 5000 under AllowedHosts, also change the AllowedHosts in the DocumentManagement-WebApp to match</li>
 <li>The appsettings.json file in the DocumentManagement-WebApp contains the ports used for the API as 5050 under CSDSDocumentManagementAPI, change this if necessary</li>
